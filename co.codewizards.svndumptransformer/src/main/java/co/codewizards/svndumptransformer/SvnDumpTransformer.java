@@ -134,7 +134,7 @@ public class SvnDumpTransformer {
 					TextContent newTextContent = null;
 					if (textContent != null) {
 						newTextContent = textContent.clone();
-						transformTextContent(contentHeader, newContentHeader, propContent, newPropContent, textContent, newTextContent);
+//						transformTextContent(contentHeader, newContentHeader, propContent, newPropContent, textContent, newTextContent);
 					}
 
 					byte[] newPropContentData = null;
